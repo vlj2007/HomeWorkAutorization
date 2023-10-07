@@ -57,7 +57,7 @@ public class Main {
             System.out.println(" Your password incorrect. Try again, please.");
         }
 
-        if (!password.equals(confirmPassword)){
+        if (!password.equals(confirmPassword)) {
             throw new WrongPasswordException("The password and password confirmation fields do not match");
         }
 
